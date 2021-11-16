@@ -109,4 +109,5 @@ menghasilkan `1.73205....`
     | `FALSE`| `TRUE`  |
 
 - Contoh program
-    - [relasional2.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/relasional3.cpp)
+    - [relasional3.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/relasional3.cpp)
+
