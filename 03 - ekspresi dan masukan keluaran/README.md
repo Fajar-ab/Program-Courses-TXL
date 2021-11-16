@@ -14,6 +14,8 @@
 
 - Jika kedua operand merupakan bilangan bulat, hasil pengoperasian selalu bilangan bulat juga.
 - Ketika setidaknya salah satu dari operand ada yang bertipe data _floating point_, pengoperasian akan selalu menghasilkan _floating point_.
+- Contoh program:
+    - [kuadrat.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/kuadrat.cpp)
 
 ## Prioritas Pengerjaan
 
@@ -26,6 +28,18 @@
 
 
 - Jika ada beberapa operasi bersebelahan yang memiliki prioritas sama, operasi yang terletak di posisi lebih kiri akan dikerjakan lebih dahulu.
+- Contoh program:
+    - [numerik.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/numerik.cpp)
+
+## Operasi Unary
+
+- Pada C++, terdapat pula operasi unary numerik.
+- Operasi unary berarti hanya melibatkan satu operand.
+- Misalnya terdapat variabel x, operasi unary tersedia berupa:
+- `x++`, artinya tambah x dengan 1.
+- `x--`, artinya kurangi x dengan 1.
+- Contoh program
+    - [unary.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/unary.cpp)
 
 ## Fungsi Dasar Numerik
 
@@ -38,6 +52,8 @@ akan menghasilkan `2.0`.
 - `sqrt`: mendapatkan akar kuadrat dari suatu bilangan.
 Contoh: `sqrt(9)` akan menghasilkan `3.00`, dan `sqrt(3)` akan
 menghasilkan `1.73205....`
+- Contoh program
+    - [cmath.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/cmath.cpp)
 
 ## Operasi Relasional
 
@@ -54,6 +70,10 @@ menghasilkan `1.73205....`
 
 - Operasi relasional harus melibatkan dua operand (*ingat bahwa operand bisa jadi berupa ekspresi lagi*), dan menghasilkan sebuah nilai kebenaran.
 - Nilai kebenaran dinyatakan dengan tipe data `boolean`.
+- Contoh program
+    - [relasional.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/relasional.cpp)
+    - [relasional2.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/relasional2.cpp)
+
 
 ## Operasi Boolean
 
@@ -87,3 +107,6 @@ menghasilkan `1.73205....`
     |:-----: |:------: |
     | `TRUE` | `FALSE` |
     | `FALSE`| `TRUE`  |
+
+- Contoh program
+    - [relasional2.cpp](https://github.com/fajar-ab/Program-Courses-TXL/blob/lessons/03%20-%20ekspresi%20dan%20masukan%20keluaran/relasional3.cpp)
