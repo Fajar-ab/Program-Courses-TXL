@@ -6,6 +6,8 @@
 !.vscode/extensions.json
 *.code-workspace
 
+.vscode/
+
 # Executables
 *.exe
 *.out
