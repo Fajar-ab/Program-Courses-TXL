@@ -1,15 +1,9 @@
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+# Ignore Everything
+*
 
-# Executables
-*.exe
-*.out
-*.app
-
-# Folderku
-examp/
+# But not .cpp
+!*.cpp
+# Or directories
+!*/
+!.gitignore
+!*.md
